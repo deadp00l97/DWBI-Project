@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Car_Market_SSAS</Database>
+    <Server>MSI</Server>
+    <ConnectionString>Data Source=MSI;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>lmjR0N4RS4Jr6e4S7bC+ase7Nuw=5/16/2022 7:53:15 AM5/16/2022 7:53:14 AM</TimeStamp>
+        <ID>
+          <String>DS_Car_Market_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>pgOLjld7G+lLVm1V/gsuNV/9Ud4=5/16/2022 7:55:57 AM5/16/2022 7:53:42 AM</TimeStamp>
+        <ID>
+          <String>DSV_Car_Market_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eHERn3Cqeajbz/BiqTvpmXG5djU=5/16/2022 7:59:51 AM5/16/2022 7:55:57 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RD0ddbN6L7tp0e5Ansd9o8Afp9U=5/16/2022 7:59:51 AM5/16/2022 7:55:57 AM</TimeStamp>
+        <ID>
+          <String>Dim Ad</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>y9UwxwJrqFLP8Kosxv8pAomZSuQ=5/16/2022 7:59:51 AM5/16/2022 7:55:57 AM</TimeStamp>
+        <ID>
+          <String>Dim Catalog</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>n4Gwp1nevbuo9mJU/E3aaUbm80o=5/16/2022 12:01:38 PM5/16/2022 7:55:57 AMjJIdgoo6S5yKZmtHWLPWOWd+8+0=5/16/2022 7:55:57 AM5/16/2022 7:55:57 AM</TimeStamp>
+        <ID>
+          <String>Cube_Car_Market</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>u0Egzj5Kkz4ks/JTYVcJh6i75mE=5/17/2022 9:37:13 AM5/17/2022 9:35:59 AM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>nZetC8OGLIyglsk2uBen/vfkP5E=5/17/2022 9:37:13 AM5/16/2022 7:45:23 AM</TimeStamp>
+      <ID>
+        <String>Car_Market_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-17T04:09:52.91Z</LastDeployed>
+</DeploymentSnapshot>

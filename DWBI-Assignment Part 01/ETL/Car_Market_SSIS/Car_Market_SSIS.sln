@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Car_Market_SSIS", "Car_Market_SSIS\Car_Market_SSIS.dtproj", "{EA782057-44E7-41C8-8D44-1F70E9310754}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA782057-44E7-41C8-8D44-1F70E9310754}.Development|Default.ActiveCfg = Development
+		{EA782057-44E7-41C8-8D44-1F70E9310754}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1637F87-AD79-488B-82FB-C88B7663E502}
+	EndGlobalSection
+EndGlobal
